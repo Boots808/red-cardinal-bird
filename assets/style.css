@@ -36,6 +36,7 @@ textarea{
   height: 80px;
   border-top: 1px solid white;;
 }
+/*attempting to add in ID per hour to help with color changing function */
 
 .hour {
   background-color: #ffffff;
@@ -44,7 +45,7 @@ textarea{
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: gray;
   color: white;
 }
 
