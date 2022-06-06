@@ -24,6 +24,8 @@ textarea{
 
 .description{
   white-space: pre-wrap;
+  border-top: 1pt dotted gray;
+  border-bottom: 1pt dotted gray;
 }
 
 .time-block{
@@ -36,7 +38,7 @@ textarea{
   height: 80px;
   border-top: 1px solid white;;
 }
-/*attempting to add in ID per hour to help with color changing function */
+
 
 .hour {
   background-color: #ffffff;
@@ -72,6 +74,5 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-.container {
-  border-color: 4px dotted black;
-}
+
+
