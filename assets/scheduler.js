@@ -5,11 +5,9 @@ var getHours;
 var displayTime;
 var saveTask = $(".saveBtn");
 
-//display date up top
+//display date up top in wanted format
 var today = moment();
-$("#currentDay").text(today.format("dddd, MMMM Do"));
-
-
+$("#currentDay").text(moment().format("MMMM Do YYYY"));
 
 //display current hour - from moment.js
 var nowHour = moment().hour();
@@ -32,15 +30,15 @@ var nowHour = moment().hour();
    $("#7 .row").val(localStorage.getItem("7"));
    $("#8 .row").val(localStorage.getItem("8"));
    $("#9 .row").val(localStorage.getItem("9"));
-   $("#hour11 .row").val(localStorage.getItem("10"));
-   $("#hour12 .row").val(localStorage.getItem("11"));
-   $("#hour13 .row").val(localStorage.getItem("12"));
-   $("#hour14 .row").val(localStorage.getItem("13"));
-   $("#hour15 .row").val(localStorage.getItem("14"));
-   $("#hour16 .row").val(localStorage.getItem("15"));
-   $("#hour17 .row").val(localStorage.getItem("16"));
+   $("#10 .row").val(localStorage.getItem("10"));
+   $("#11 .row").val(localStorage.getItem("11"));
+   $("#12 .row").val(localStorage.getItem("12"));
+   $("#13 .row").val(localStorage.getItem("13"));
+   $("#14 .row").val(localStorage.getItem("14"));
+   $("#15 .row").val(localStorage.getItem("15"));
+   $("#16 .row").val(localStorage.getItem("16"));
 
-   //on lick save button using Jquery method
+ //on click save button using Jquery method
 //reference https://www.geeksforgeeks.org/jquery-click-with-examples/
 $(document).ready(function () {
   // saveBtn click listener 
@@ -50,7 +48,7 @@ $(document).ready(function () {
       var task = $(this).siblings(".description").val();
       var hour = $(this).parent().attr("id");
 
-      // Save text in local storage
+      // Save inputted text in local storage
       localStorage.setItem(hour, task);
   })
 });

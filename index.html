@@ -20,15 +20,19 @@
     <title>Work Day Scheduler</title>
   </head>
 
+<!--body start-->
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    
+  
+    <!--container start--> 
   <div class="container"></div>
+
     <!--Start of the calendar time rows -->
+    <!--12 total from 7AM to 6PM-->
       <div id="7" class="row time-block">
         <div class="col-md-1">
             7:00am
@@ -148,7 +152,9 @@
   <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
 </div>
 </div>
+<!--end of calendar time blocks - 12 total-->
 
+<!--API Links-->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script src="./assets/scheduler.js"></script>
