@@ -20,7 +20,7 @@ Note: Will want to add in mediaQuery to allow for muliple screen sizes such as t
 Note: Can easily update the hour parameters by updating the HTML calendar time section
 
 Screenshot of Application:
-<img src="">
+<img src="https://github.com/Boots808/red-cardinal-bird/blob/main/assets/Images/Screenshot%20Image.png">
 
 
 
