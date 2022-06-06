@@ -5,4 +5,5 @@ resources:
 2. https://www.w3schools.com/tags/att_input_type_text.asp
 3. https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp
 4. https://getbootstrap.com/docs/4.1/layout/grid/
+5. https://www.geeksforgeeks.org/jquery-click-with-examples/
 
