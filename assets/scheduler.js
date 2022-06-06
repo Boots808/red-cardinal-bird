@@ -55,11 +55,11 @@ $(document).ready(function () {
 
 // Add function to keep saved on refresh???
 
+//resources used are posted in ReadMe
 
 
 
 
-  //https://www.w3schools.com/jquery/jquery_traversing_siblings.asp
 
 
 

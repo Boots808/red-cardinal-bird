@@ -31,4 +31,5 @@ resources:
 3. https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp
 4. https://getbootstrap.com/docs/4.1/layout/grid/
 5. https://www.geeksforgeeks.org/jquery-click-with-examples/
+6. //https://www.w3schools.com/jquery/jquery_traversing_siblings.asp
 
